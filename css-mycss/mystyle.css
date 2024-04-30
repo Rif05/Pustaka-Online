@@ -1,0 +1,158 @@
+.nav-bg-color {
+  background-color: rgb(40, 188, 139);
+}
+.logo {
+  width: 80px;
+  filter: drop-shadow(0 0 12px white);
+}
+.carousel-item {
+  transition: transform 4s ease, opacity 0.5s ease-out;
+}
+.cari {
+  height: 40px;
+  border-radius: 5px;
+  padding: 0;
+  position: relative;
+  top: -20px;
+  transition: 500ms;
+  background-color: rgb(40, 188, 139);
+}
+.cari:hover {
+  top: -30px;
+  box-shadow: 0 30px 5px -20px rgb(18, 15, 15);
+  border: none;
+}
+.tombol {
+  border: none;
+}
+.jenis-buku {
+  height: 200px;
+  width: min-content;
+}
+.jenis-buku .jenis1 {
+  text-decoration: none;
+  color: rgb(40, 188, 139);
+  font-size: 185px;
+  text-align: center;
+  line-height: 200px;
+  transition: 800ms;
+  position: relative;
+}
+.jenis-buku:hover a {
+  top: -20px;
+  text-shadow: 0px 10px 10px rgb(0, 0, 0);
+}
+.jenis-buku span {
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  top: -90px;
+  opacity: 0;
+  color: rgb(40, 188, 139);
+  text-shadow: 4px 3px 5px white, 3px 2px 5px rgb(40, 188, 139);
+  transition: 900ms 500ms;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid rgba(40, 188, 139, 0.6);
+  border-radius: 10px;
+}
+.jenis-buku:hover span {
+  opacity: 1;
+}
+/* rekomendasi buku */
+.rekomendasi {
+  height: 350px;
+  width: min-content;
+}
+.rekomendasi span {
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  top: -30px;
+  opacity: 0;
+  color: rgb(240, 59, 59);
+  text-shadow: 4px 3px 5px white, 3px 2px 5px rgb(40, 188, 139);
+  transition: 800ms 300ms;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.rekomendasi:hover span {
+  opacity: 1;
+  top: -80px;
+  overflow: none;
+}
+/* image-size */
+.gambar-s {
+  height: 300px;
+}
+/* end image-size */
+/* ukuran */
+.wd-p {
+  height: 220px;
+  width: 170px;
+}
+.wi {
+  width: 160px;
+  height: 200px;
+}
+
+/* akhir ukuran */
+/* tm-s */
+.tb-s {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+}
+.tb-s:active {
+  background-color: skyblue;
+}
+/* akhir tm-s */
+/* jenis buku mobile */
+.jenis-buku-m {
+  height: 50px;
+}
+.jenis-buku-m .jenis1 {
+  text-decoration: none;
+  color: rgb(40, 188, 139);
+  font-size: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.jenis-buku-m span {
+  font-size: 15px;
+  font-weight: bold;
+}
+/* akhir jenis buku mobile */
+/* kontribrutor pembaca */
+.gambar-m {
+  height: 250px;
+}
+/* akhir kontribrutor pembaca */
+.navg {
+  position: absolute;
+  top: 45%;
+  left: -45px;
+}
+.navg2 {
+  position: absolute;
+  top: 45%;
+  right: -60px;
+}
+.clr-inf {
+  background-color: rgba(40, 188, 139, 0.4);
+}
+.st-inf {
+  font-size: 18px;
+  text-indent: 15px;
+}
+.cf-i {
+  height: 150vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/slide/slide2.png);
+  background-size: cover;
+}
+/* bg-bantuan */
+.bg-bantuan {
+  background-color: rgb(40, 188, 139);
+}
+/* bg-bantuan */

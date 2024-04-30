@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <title>Pustaka Online</title>
+    <!-- my css -->
+    <link rel="stylesheet" href="/css-mycss/mystyle.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark nav-bg-color">
+      <div class="container">
+        <a class="navbar-brand" href="#">Pustaka Online</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="Informasi.html">Informasi</a>
+            <a class="nav-link" href="bantuan.html">Bantuan</a>
+            <a class="nav-link" href="#">Pustakawan</a>
+            <a class="nav-link" href="#">Anggota</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+    <!-- image slide -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/slide/slide1.png" class="d-block w-100" alt="slide1" />
+        </div>
+        <div class="carousel-item">
+          <img src="/img/slide/slide2.png" class="d-block w-100" alt="slide2" />
+        </div>
+        <div class="carousel-item">
+          <img src="/img/slide/slide3.png" class="d-block w-100" alt="slide3" />
+        </div>
+      </div>
+    </div>
+    <!-- akhir image slide -->
+    <!-- search bar -->
+    <div class="container input-group mb-3 w-75 cari">
+      <input type="search" class="form-control" aria-describedby="button-addon2" form="button-addon2" />
+      <button class="btn tombol" type="button" id="button-addon2">cari</button>
+    </div>
+    <!-- akhir search bar -->
+    <!-- jenis buku -->
+    <div class="container d-none d-md-block">
+      <h2 class="text-center">Jenis-jenis Buku</h2>
+      <div class="row gx-20 ms-5">
+        <div class="col-12 col-sm-6 col-md-3 jenis-buku mb-4 text-center">
+          <a href="#" class="jenis1">&#x262A;</a>
+          <span class="pt-1 pb-1 ps-1 pe-1">AGAMA</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 jenis-buku mb-4 text-center">
+          <a href="#" class="jenis1">&#x2696;</a>
+          <span class="pt-1 pb-1 ps-1 pe-1">HUKUM</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 jenis-buku text-center">
+          <a href="#" class="jenis1">&#x2695;</a>
+          <span class="pt-1 pb-1 ps-1 pe-1">KESEHATAN</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 jenis-buku text-center">
+          <a href="#" class="jenis1">&#x2668;</a>
+          <span class="pt-1 pb-1 ps-1 pe-1">RESEP </span>
+        </div>
+      </div>
+    </div>
+    <!-- jenis buku mobile -->
+    <div class="container w-auto d-xs-block d-md-none">
+      <h2 class="text-center">Jenis-jenis Buku</h2>
+      <div class="row gx-20">
+        <div class="col-3 jenis-buku-m text-center">
+          <a href="#" class="jenis1">&#x262A;</a>
+          <span class="pt-1 pb-1 ps-1 pe-1">AGAMA</span>
+        </div>
+        <div class="col-3 jenis-buku-m text-center">
+          <a href="#" class="jenis1">&#x2696;</a>
+          <span class="">HUKUM</span>
+        </div>
+        <div class="col-3 jenis-buku-m text-center">
+          <a href="#" class="jenis1">&#x2695;</a>
+          <span class="">KESEHATAN</span>
+        </div>
+        <div class="col-3 jenis-buku-m text-center">
+          <a href="#" class="jenis1">&#x2668;</a>
+          <span class="ms-1">RESEP </span>
+        </div>
+      </div>
+    </div>
+    <!-- akhir jenis buku mobile-->
+    <!-- akhir jenis buku -->
+    <!-- Rekomendasi Buku  -->
+    <div class="container ps-5 mt-5 d-none d-md-block">
+      <h2 class="mb-5 text-center">Rekomendasi Buku</h2>
+      <div class="row gx-20">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 rekomendasi text-center">
+          <a href="#">
+            <img src="/img/book-cover/cover1.png" alt="" />
+          </a>
+          <span class="pt-1 pb-5 ps-5 pe-5">REKOMENDASI</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 rekomendasi text-center">
+          <a href="#">
+            <img src="/img/book-cover/cover2.png" alt="" />
+          </a>
+          <span class="pt-1 pb-5 ps-5 pe-5">REKOMENDASI</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 rekomendasi text-center">
+          <a href="#">
+            <img src="/img/book-cover/cover1.png" alt="" />
+          </a>
+          <span class="pt-1 pb-5 ps-5 pe-5">REKOMENDASI</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 rekomendasi text-center">
+          <a href="#">
+            <img src="/img/book-cover/cover2.png" alt="" />
+          </a>
+          <span class="pt-1 pb-5 ps-5 pe-5">REKOMENDASI</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 rekomendasi text-center">
+          <a href="#">
+            <img src="/img/book-cover/cover1.png" alt="" />
+          </a>
+          <span class="pt-1 pb-5 ps-5 pe-5">REKOMENDASI</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 rekomendasi text-center">
+          <a href="#">
+            <img src="/img/book-cover/cover2.png" alt="" />
+          </a>
+          <span class="pt-1 pb-5 ps-5 pe-5">REKOMENDASI</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 rekomendasi text-center">
+          <a href="#">
+            <img src="/img/book-cover/cover1.png" alt="" />
+          </a>
+          <span class="pt-1 pb-5 ps-5 pe-5">REKOMENDASI</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 rekomendasi text-center">
+          <a href="#">
+            <img src="/img/book-cover/cover2.png" alt="" />
+          </a>
+          <span class="pt-1 pb-5 ps-5 pe-5">REKOMENDASI</span>
+        </div>
+      </div>
+    </div>
+    <!-- Rekomendasi Buku Mobile -->
+    <div class="container mt-5 d-xs-block d-md-none">
+      <h1 class="text-center">Rekomendasi Buku</h1>
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 wd-p">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            </div>
+            <div class="carousel-inner wd-p">
+              <div class="carousel-item active">
+                <a href="#">
+                  <img src="/img/book-cover/cover1.png" class="d-block wi" alt="..." />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/book-cover/cover2.png" class="d-block wi" alt="..." />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/book-cover/cover1.png" class="d-block wi" alt="..." />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/book-cover/cover2.png" class="d-block wi" alt="..." />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/book-cover/cover1.png" class="d-block wi" alt="..." />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/book-cover/cover2.png" class="d-block wi" alt="..." />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/book-cover/cover1.png" class="d-block wi" alt="..." />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/book-cover/cover2.png" class="d-block wi" alt="..." />
+                </a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon btn-success tb-s navg" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon btn-success tb-s navg2" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Rekomdasi Buku Mobile -->
+    <!-- Akhir Rekomendasi buku -->
+    <!-- Terbaru Buku  -->
+    <div class="container mt-5 ps-5 d-none d-md-block">
+      <h2 style="text-align: center" class="mb-5">Koleksi Terbaru</h2>
+      <div class="row gx-20">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 rekomendasi text-center">
+          <a href="#">
+            <img src="/img/book-cover/cover1.png" alt="" />
+          </a>
+          <span class="pt-1 pb-5 ps-5 pe-5">REKOMENDASI</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 rekomendasi text-center">
+          <a href="#">
+            <img src="/img/book-cover/cover2.png" alt="" />
+          </a>
+          <span class="pt-1 pb-5 ps-5 pe-5">REKOMENDASI</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 rekomendasi text-center">
+          <a href="#">
+            <img src="/img/book-cover/cover1.png" alt="" />
+          </a>
+          <span class="pt-1 pb-5 ps-5 pe-5">REKOMENDASI</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 rekomendasi text-center">
+          <a href="#">
+            <img src="/img/book-cover/cover2.png" alt="" />
+          </a>
+          <span class="pt-1 pb-5 ps-5 pe-5">REKOMENDASI</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 rekomendasi text-center">
+          <a href="#">
+            <img src="/img/book-cover/cover1.png" alt="" />
+          </a>
+          <span class="pt-1 pb-5 ps-5 pe-5">REKOMENDASI</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 rekomendasi text-center">
+          <a href="#">
+            <img src="/img/book-cover/cover2.png" alt="" />
+          </a>
+          <span class="pt-1 pb-5 ps-5 pe-5">REKOMENDASI</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 rekomendasi text-center">
+          <a href="#">
+            <img src="/img/book-cover/cover1.png" alt="" />
+          </a>
+          <span class="pt-1 pb-5 ps-5 pe-5">REKOMENDASI</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 rekomendasi text-center">
+          <a href="#">
+            <img src="/img/book-cover/cover2.png" alt="" />
+          </a>
+          <span class="pt-1 pb-5 ps-5 pe-5">REKOMENDASI</span>
+        </div>
+      </div>
+    </div>
+    <!-- Terbaru Buku Mobile -->
+    <div class="container mt-5 d-xs-block d-md-none">
+      <h1 class="text-center">Koleksi Terbaru</h1>
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 wd-p">
+          <div id="carouselExampleInterval-2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            </div>
+            <div class="carousel-inner wd-p">
+              <div class="carousel-item active">
+                <a href="#">
+                  <img src="/img/book-cover/cover1.png" class="d-block wi" alt="..." />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/book-cover/cover2.png" class="d-block wi" alt="..." />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/book-cover/cover1.png" class="d-block wi" alt="..." />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/book-cover/cover2.png" class="d-block wi" alt="..." />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/book-cover/cover1.png" class="d-block wi" alt="..." />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/book-cover/cover2.png" class="d-block wi" alt="..." />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/book-cover/cover1.png" class="d-block wi" alt="..." />
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/book-cover/cover2.png" class="d-block wi" alt="..." />
+                </a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval-2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon btn-success tb-s navg" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval-2" data-bs-slide="next">
+              <span class="carousel-control-next-icon btn-success tb-s navg2" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Terbaru Mobile -->
+    <!-- Akhir Terbaru -->
+
+    <!-- Penikmat Koleksi terkini -->
+    <div class="container d-none d-md-block">
+      <h3 class="text-center mb-5">KONTRIBUTOR PEMBACA TERKINI</h3>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4 mb-3 p-3">
+          <div class="card text-center">
+            <img src="/img/user/user1.png" class="card-img-top gambar-s" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">SARAH HARA</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veritatis repudiandae ad unde natus? Minus reprehenderit a sint. Temporibus, atque accusantium possimus quas nemo est!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mb-3 p-3">
+          <div class="card text-center">
+            <img src="/img/user/user2.png" class="card-img-top gambar-s" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">DAVID DAVE</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veritatis repudiandae ad unde natus? Minus reprehenderit a sint. Temporibus, atque accusantium possimus quas nemo est!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mb-3 p-3">
+          <div class="card text-center">
+            <img src="/img/user/user1.png" class="card-img-top gambar-s" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">HANANIA FRIYAL</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veritatis repudiandae ad unde natus? Minus reprehenderit a sint. Temporibus, atque accusantium possimus quas nemo est!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Penikmat Koleksi terkini -->
+    <!-- Penikmat Koleksi terkini mobile-->
+    <div class="container-fluid d-xs-block d-md-none">
+      <h2 class="text-center mb-4 mt-4">KONTRIBUTOR PEMBACA TERKINI</h2>
+      <div class="row mb-3">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="card text-center w-75">
+            <img src="/img/user/user1.png" class="gambar-m" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">SARAH HARA</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veritatis repudiandae ad unde natus? Minus reprehenderit a sint. Temporibus, atque accusantium possimus quas nemo est!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+          <div class="card text-center w-75">
+            <img src="/img/user/user2.png" class="gambar-m" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">DAVID DAVE</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veritatis repudiandae ad unde natus? Minus reprehenderit a sint. Temporibus, atque accusantium possimus quas nemo est!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+          <div class="card text-center w-75">
+            <img src="/img/user/user1.png" class="gambar-m" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">HANANIA FRIYAL</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veritatis repudiandae ad unde natus? Minus reprehenderit a sint. Temporibus, atque accusantium possimus quas nemo est!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Penikmat Koleksi terkini mobile -->
+    <!-- footer -->
+    <div class="container-fluid d-none d-md-block" style="background-color: rgb(40, 188, 139)">
+      <div class="row">
+        <div class="col-sm-6">
+          <h5 class="card-title text-center pt-2" style="color: white">ABOUT US</h5>
+          <p class="card-text pt-0" style="font-size: 13px; color: white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veritatis repudiandae ad unde natus? Minus reprehenderit a sint. Temporibus, atque accusantium possimus quas nemo est! Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Doloremque, porro!
+          </p>
+        </div>
+        <div class="col-sm-6 pt-4">
+          <form class="input-group">
+            <input class="form-control me-2" type="search" placeholder="Search" />
+            <button class="btn btn-warning" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- footer mobile -->
+    <div class="container-fluid d-xs-block d-md-none" style="background-color: rgb(40, 188, 139)">
+      <div class="row">
+        <div class="col-sm-6">
+          <h5 class="card-title text-center pt-1" style="color: white">ABOUT US</h5>
+          <p class="card-text p-3" style="font-size: 13px; color: white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veritatis repudiandae ad unde natus? Minus reprehenderit a sint. Temporibus, atque accusantium possimus quas nemo est! Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Doloremque, porro!
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- akhir footer mobile -->
+    <!-- akhir footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
