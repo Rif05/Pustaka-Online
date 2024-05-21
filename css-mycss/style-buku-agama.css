@@ -4,3 +4,14 @@ body {
 .nav-bg-color {
   background-color: rgb(40, 188, 139);
 }
+
+.f-ba-m1 {
+  font-size: 7px;
+}
+.f-ba-m2 {
+  font-size: 5px;
+}
+
+.feature-m {
+  font-size: 15px;
+}
